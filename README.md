@@ -1,8 +1,12 @@
+
 # Hangman
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hangman`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a command line hangman game. You can play a round or two, save your game, and when you come back you can load up to where you left off.
 
-TODO: Delete this and the text above, and describe your gem
+If you have somehow managed to never play hangman:
+  A random word will be selected that is 5 - 12 characters long. You will be shown a string of blanks like so "_ _ _ _ _ ". You will have to guess the letters that make up the word. If you are right, that letter will put in its correct place. Game continues until you've run out of letters or you have found the word. Pretty simple!
+
+Have fun! :)
 
 ## Installation
 
@@ -20,17 +24,10 @@ Or install it yourself as:
 
     $ gem install hangman
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake false` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hangman.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jameskelsey/hangman.
 
+=======
+# hangman
+Command line hangman.

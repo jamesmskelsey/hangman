@@ -8,13 +8,13 @@ module Hangman
   class Player
       attr_accessor :name, :wins, :losses, :word_to_find, :guesses, :misses
 
-      def initialize(name, wins=0, losses=0, word_to_find="default", guesses=[]], misses=[])
+      def initialize(name, wins=0, losses=0, word_to_find="default", guesses="", misses=[])
         @name = name
         @wins = wins
         @losses = losses
         @word_to_find = word_to_find
         @guesses = guesses
-        @misses = []
+        @misses = misses
       end
 
       def add_win
@@ -26,7 +26,7 @@ module Hangman
       end
 
       def handle_guess_storage(guess)
-          @guesses << guess
+          @guesses = guess
           if !guess.any?(word_to_find.split(""))
             misses << guess
           end

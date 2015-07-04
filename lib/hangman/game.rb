@@ -98,7 +98,7 @@ module Hangman
           player1.add_win
           puts "*** You got it! ***"
           break
-        elsif player1.guesses.length > 10
+        elsif player1.misses.length > 10
           puts "*** You took too long :( ***"
           player1.add_loss
           break
