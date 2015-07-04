@@ -29,5 +29,3 @@ Or install it yourself as:
 Bug reports and pull requests are welcome on GitHub at https://github.com/jameskelsey/hangman.
 
 =======
-# hangman
-Command line hangman.

@@ -1,0 +1,8 @@
+--- !ruby/object:Hangman::Game::Player
+name: James
+wins: 11
+losses: 110
+word_to_find: bunion
+guesses: n
+misses:
+- z

@@ -1,0 +1,7 @@
+--- !ruby/object:Hangman::Game::Player
+name: James
+wins: 10
+losses: 110
+word_to_find: default
+guesses: ''
+misses: []
